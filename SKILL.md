@@ -106,6 +106,17 @@ Example: `levels-of-agentic-engineering.md`, `understanding-transformer-architec
 - Primary: write to `~/Repos/ai/url2zh/{slug}.md`
 - If that directory does not exist, write to the current working directory instead
 
+## Step 5: Commit and Push
+
+After writing the file to `~/Repos/ai/url2zh/`:
+
+1. `cd ~/Repos/ai/url2zh`
+2. `git add {slug}.md`
+3. Commit with message: `translate: {article title in English or short description}`
+4. `git push`
+
+Skip this step if the file was written to the current working directory instead (i.e., the primary directory did not exist).
+
 ### Important
 
 - Ensure all images use absolute URLs so they render correctly
